@@ -1,4 +1,37 @@
 body {
+  /* Center the header */
+header {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Add padding to all <a> tags */
+a {
+  padding: 0 10px;
+}
+
+/* Shrink font size and center the image caption */
+#featured-property figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Set hard width and center <p> tags within #featured-property */
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Float each <div> in the details section to the left */
+#details div {
+  float: left;
+}
+
   width: 100%;
   height: 100%;
   margin: 0;
